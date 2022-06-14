@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   parameter-store:
-    GITHUB_TOKEN: "/continuous_apply/github_token"
+    GITHUB_TOKEN: "/codebuild/github_token"
 
 phases:
   install:

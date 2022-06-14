@@ -4,6 +4,6 @@ set -x
 if [[ ${CODEBUILD_WEBHOOK_TRIGGER} = 'branch/main' ]]; then
   ${CODEBUILD_SRC_DIR}/scripts/apply.sh
 else
-#  ${CODEBUILD_SRC_DIR}/scripts/plan.sh
-  ${CODEBUILD_SRC_DIR}/scripts/apply.sh
+  ${CODEBUILD_SRC_DIR}/scripts/plan.sh
+#  ${CODEBUILD_SRC_DIR}/scripts/apply.sh
 fi
